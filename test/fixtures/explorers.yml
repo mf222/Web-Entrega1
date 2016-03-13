@@ -3,7 +3,11 @@
 one:
   name: MyString
   version: MyString
+  year: 1
+  month: MyString
 
 two:
   name: MyString
   version: MyString
+  year: 1
+  month: MyString

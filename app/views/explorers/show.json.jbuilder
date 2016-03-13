@@ -1,1 +1,1 @@
-json.extract! @explorer, :id, :name, :version, :created_at, :updated_at
+json.extract! @explorer, :id, :name, :version, :year, :month, :created_at, :updated_at

@@ -18,7 +18,7 @@ class ExplorersControllerTest < ActionController::TestCase
 
   test "should create explorer" do
     assert_difference('Explorer.count') do
-      post :create, explorer: { name: @explorer.name, version: @explorer.version }
+      post :create, explorer: { month: @explorer.month, name: @explorer.name, version: @explorer.version, year: @explorer.year }
     end
 
     assert_redirected_to explorer_path(assigns(:explorer))
@@ -35,7 +35,7 @@ class ExplorersControllerTest < ActionController::TestCase
   end
 
   test "should update explorer" do
-    patch :update, id: @explorer, explorer: { name: @explorer.name, version: @explorer.version }
+    patch :update, id: @explorer, explorer: { month: @explorer.month, name: @explorer.name, version: @explorer.version, year: @explorer.year }
     assert_redirected_to explorer_path(assigns(:explorer))
   end
 

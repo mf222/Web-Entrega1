@@ -1,12 +1,14 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Listing Explorers</h1>
+<h1>Versiones Internet Explorer</h1>
 
 <table>
   <thead>
     <tr>
       <th>Name</th>
       <th>Version</th>
+      <th>Year</th>
+      <th>Month</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -16,6 +18,8 @@
       <tr>
         <td><%= explorer.name %></td>
         <td><%= explorer.version %></td>
+        <td><%= explorer.year %></td>
+        <td><%= explorer.month %></td>
         <td><%= link_to 'Show', explorer %></td>
         <td><%= link_to 'Edit', edit_explorer_path(explorer) %></td>
         <td><%= link_to 'Destroy', explorer, method: :delete, data: { confirm: 'Are you sure?' } %></td>

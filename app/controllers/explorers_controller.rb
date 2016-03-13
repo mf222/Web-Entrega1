@@ -69,6 +69,6 @@ class ExplorersController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def explorer_params
-      params.require(:explorer).permit(:name, :version)
+      params.require(:explorer).permit(:name, :version, :year, :month)
     end
 end

@@ -3,6 +3,8 @@ class CreateExplorers < ActiveRecord::Migration
     create_table :explorers do |t|
       t.string :name
       t.string :version
+      t.integer :year
+      t.string :month
 
       t.timestamps null: false
     end

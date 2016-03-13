@@ -11,11 +11,13 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160312131834) do
+ActiveRecord::Schema.define(version: 20160313191657) do
 
   create_table "explorers", force: :cascade do |t|
     t.string   "name"
     t.string   "version"
+    t.integer  "year"
+    t.string   "month"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
