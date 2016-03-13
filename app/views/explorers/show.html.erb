@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @explorer.name %>
+</p>
+
+<p>
+  <strong>Version:</strong>
+  <%= @explorer.version %>
+</p>
+
+<%= link_to 'Edit', edit_explorer_path(@explorer) %> |
+<%= link_to 'Back', explorers_path %>
