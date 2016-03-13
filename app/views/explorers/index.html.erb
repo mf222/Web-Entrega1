@@ -1,8 +1,8 @@
 <p id="notice"><%= notice %></p>
 
-<h1 >Versiones Internet Explorer</h1>
+<h1>Versiones Internet Explorer</h1>
 
-<table border="1">
+<table>
   <thead>
     <tr>
       <th>Name</th>
@@ -20,9 +20,12 @@
         <td><%= explorer.version %></td>
         <td><%= explorer.year %></td>
         <td><%= explorer.month %></td>
-        <td><%= link_to 'Ver', explorer %></td>
-        <td><%= link_to 'Editar', edit_explorer_path(explorer) %></td>
-        <td><%= button_to 'Delete', explorer, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= image_tag(explorer.image.url, :size => '300x300')%></td>
+        
+
+        <td><%= link_to 'Show', explorer %></td>
+        <td><%= link_to 'Edit', edit_explorer_path(explorer) %></td>
+        <td><%= button_to 'Destroy', explorer, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>
@@ -30,4 +33,4 @@
 
 <br>
 
-<%= link_to 'Nueva Version', {:controller => 'explorers', :action => 'new'}, {:method => :get } %>
+<%= link_to 'New Explorer', {:controller => 'explorers', :action => 'new'}, {:method => :get } %>

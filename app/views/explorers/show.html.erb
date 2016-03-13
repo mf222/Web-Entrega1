@@ -1,3 +1,5 @@
+
+
 <p id="notice"><%= notice %></p>
 
 <p>
@@ -19,6 +21,11 @@
   <strong>Month:</strong>
   <%= @explorer.month %>
 </p>
+<p>
+  <strong>Image:</strong>
+  <%= image_tag(@explorer.image.url, :size => "300x300") %>
+</p>
+
 
 <%= link_to 'Edit', edit_explorer_path(@explorer) %> |
 <%= link_to 'Back', explorers_path %>
