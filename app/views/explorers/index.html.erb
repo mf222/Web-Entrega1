@@ -20,9 +20,9 @@
         <td><%= explorer.version %></td>
         <td><%= explorer.year %></td>
         <td><%= explorer.month %></td>
-        <td><%= link_to 'Show', explorer %></td>
-        <td><%= link_to 'Edit', edit_explorer_path(explorer) %></td>
-        <td><%= link_to 'Destroy', explorer, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= button_to 'Show', explorer %></td>
+        <td><%= button_to 'Edit', edit_explorer_path(explorer) %></td>
+        <td><%= button_to 'Destroy', explorer, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>
@@ -30,4 +30,4 @@
 
 <br>
 
-<%= link_to 'New Explorer', new_explorer_path %>
+<%= button_to 'New Explorer', new_explorer_path %>
