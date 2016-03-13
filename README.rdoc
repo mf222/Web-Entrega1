@@ -1,28 +1,14 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Indicaciones como correr la aplicación.
 
-Things you may want to cover:
+La aplicación consta de versiones de Internet Explorer, ordenadas en una tabla. Cada una de ellas se puede ver, editar, eliminar y crear nuevas.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+El funcionamiento va como sigue:
+*CREATE: Click al final de la página, en Crear Nuevo. LLevara a una página con un form donde se deben ingresar los parámetros. Finalmente click en el botón.
+*READ: Para ver cada versión, basta con hacer click en Ver.
+*UPLOAD: Para editar una versión, se debe hacer click en editar, lo que llevara a un form con los atributos.
+*DELETE: Click en el botón Delete.
 
 
-Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
