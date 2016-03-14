@@ -1,5 +1,9 @@
 = README
 
+== Integrantes
+* Bastián Mavrakis
+* María Fernanda Sepúlveda
+
 == Versiones en que se ha probado
 * Windows 7 / Windows 10 / Mac OS
 * Ruby 2.1.8
