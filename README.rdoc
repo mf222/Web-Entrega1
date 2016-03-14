@@ -1,6 +1,13 @@
-== README
+= README
 
-Indicaciones como correr la aplicación.
+== Versiones en que se ha probado
+* Windows 7 / Windows 10 / Mac OS
+* Ruby 2.1.8
+* Rails 4.2.5.1
+* Gem 2.2.5
+
+
+== Indicaciones como correr la aplicación
 
 La aplicación consta de versiones de Internet Explorer, ordenadas en una tabla. Cada una de ellas se puede ver, editar, eliminar y crear nuevas.
 
