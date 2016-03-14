@@ -6,8 +6,8 @@ Rails.application.configure do
   # since you don't have to restart the web server when you make code changes.
   config.cache_classes = false
 
-  Paperclip.options[:command_path] = 'C:\Program Files(x86)\GnuWin32\bin'
-  Paperclip.options[:command_path] = 'C:\Program Files(x86)\GnuWin32'
+  Paperclip.options[:command_path] = 'C:\Windows\GnuWin32\bin'
+  Paperclip.options[:command_path] = 'C:\Windows\GnuWin32'
 
   # Do not eager load code on boot.
   config.eager_load = false

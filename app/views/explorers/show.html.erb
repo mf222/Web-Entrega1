@@ -3,7 +3,7 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong>Name:</strong>
+  <strong>Nombre:</strong>
   <%= @explorer.name %>
 </p>
 
@@ -13,19 +13,19 @@
 </p>
 
 <p>
-  <strong>Year:</strong>
+  <strong>Año:</strong>
   <%= @explorer.year %>
 </p>
 
 <p>
-  <strong>Month:</strong>
+  <strong>Mes:</strong>
   <%= @explorer.month %>
 </p>
 <p>
-  <strong>Image:</strong>
-  <%= image_tag(@explorer.image.url, :size => "300x300") %>
+  <strong>Logo:</strong>
+  <%= image_tag(@explorer.image.url, :size => "123x72") %>
 </p>
 
 
-<%= link_to 'Edit', edit_explorer_path(@explorer) %> |
-<%= link_to 'Back', explorers_path %>
+<%= link_to 'Editar', edit_explorer_path(@explorer) %> |
+<%= link_to 'Volver', explorers_path %>
