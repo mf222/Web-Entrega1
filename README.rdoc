@@ -5,10 +5,10 @@ Indicaciones como correr la aplicación.
 La aplicación consta de versiones de Internet Explorer, ordenadas en una tabla. Cada una de ellas se puede ver, editar, eliminar y crear nuevas.
 
 El funcionamiento va como sigue:
-* <tt><b>CREATE</b></tt>: Click al final de la página, en <tt>New Explorer</tt> al final de la página. LLevara a una página con un form donde se deben ingresar los parámetros. Finalmente click en el botón <tt>Create Explorer</tt>.
-* <tt><b>READ</b></tt>: Para ver cada versión, basta con hacer click en <tt>Show</tt>.
-* <tt><b>UPLOAD</b></tt>: Para editar una versión, se debe hacer click en <tt>Edit</tt>, lo que llevara a un form con los atributos correspondientes.
-* <tt><b>DELETE</b></tt>: Click en el botón <tt>Destroy</tt>.
+* <tt><b>CREATE</b></tt>: Click al final de la página, en <tt>Nueva Version</tt> al final de la página. LLevara a una página con un form donde se deben ingresar los parámetros: un nombre del tipo string, una version del tipo stirng, un año del tipo int, un mes del tipo string, y una imagen del tipo png, jpge, jpg o gif. Finalmente click en el botón <tt>Create Explorer</tt>.
+* <tt><b>READ</b></tt>: Para ver cada versión, basta con hacer click en <tt>Ver</tt>.
+* <tt><b>UPLOAD</b></tt>: Para editar una versión, se debe hacer click en <tt>Editar</tt>, lo que llevara a un form con los atributos correspondientes.
+* <tt><b>DELETE</b></tt>: Click en el botón <tt>Eliminar</tt>.
 
 == Windows
 Para subir y editar imagenes en windows, se hace uso de una gema llamada paperclip, la cual necesitará auxiliarmente el archivo <tt>file</tt> instalado y añadido a las variables de entorno. Para instalarlo visitar la siguiente página https://github.com/thoughtbot/paperclip#file .
